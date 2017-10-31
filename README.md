@@ -18,6 +18,7 @@ var syncLib = require("./sync_lib")
 
 let result = await asyncLib.doSomethingAsync()
 
+// this method is dependent on the result of a async method
 syncLib.needResult(result)
 
 
