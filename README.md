@@ -18,7 +18,6 @@ var syncLib = require("./sync_lib")
 
 let result = await asyncLib.doSomethingAsync()
 
-// you can get the result after the promise status was fulfilled
 syncLib.needResult(result)
 
 
